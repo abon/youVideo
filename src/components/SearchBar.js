@@ -9,8 +9,7 @@ export default class SearchBar extends Component {
 
   onFormSubmit = event => {
     event.preventDefault();
-
-    //CALLBACK FROM PARENT COMPONENT
+    this.props.onFormSubmit(this.state.term);
   };
 
   render() {
