@@ -11,7 +11,7 @@ export default class VideoList extends Component {
           key={video.id.videoId}
           onVideoSelect={onVideoSelect}
           video={video}
-          key={video.videoId}
+       
         />
       );
     });
@@ -23,3 +23,4 @@ export default class VideoList extends Component {
     );
   }
 }
+
